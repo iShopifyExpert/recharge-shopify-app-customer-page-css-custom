@@ -1,0 +1,202 @@
+/* Recharge app css */
+#ReCharge {
+	padding-top: 60px;
+}
+
+#ReCharge h2.rc_customer__name {
+	font-size: 1.4em;
+	color: #45474f;
+	padding: 10px 0px 0;
+	text-transform: capitalize;
+}
+
+#ReCharge .rc_title-bar__title h2 {
+	padding: 8px 0;
+	font-size: 1.4em;
+	color: #45474f;
+}
+
+#ReCharge-Nav li.rc_menu__item a {
+	color: #000;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#ReCharge-Nav li.rc_menu__item {
+	padding: 10px 10px;
+	margin: 10px 0px;
+	background: #e0e4e3;
+}
+
+#customer_tab_content {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.rc_header-settings.rc_header-settings--seamless.rc_title-bar {
+	background: #e0e4e3;
+	padding: 0px 0px 0px 12px;
+}
+
+#ReCharge .table-responsive {
+	margin-top: 11px;
+	padding: 0px !important;
+	overflow: hidden;
+}
+
+#ReCharge #customer_tab_nav {
+	border: solid 1px #ddd;
+}
+
+#ReCharge-Nav li.rc_menu__item a {
+	color: #45474f;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#ReCharge form {
+	margin: 10px 0;
+}
+
+#ReCharge input, #ReCharge select {
+	padding: 10px 7px;
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.recharge .table td {
+	padding: 11px 11px 0;
+	width: 50%;
+	padding-bottom: 30px;
+	border: 1px solid #ddd;
+}
+
+.recharge .rc_button {
+	background: #c94746;
+	padding: 10px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin-top: 10px;
+	width: 100%;
+	max-width: 240px;
+	border: solid 1px #c94746;
+}
+
+.recharge .rc_button:hover {
+	background: #fff;
+	border: solid 1px #c94746;
+	color: #c94746;
+}
+
+h4.rc__schedule__orders__order__date {
+	color: #56585f;
+	font-size: 1.3em;
+}
+
+.rc_header-settings:not(.rc_header-settings--seamless) .rc_header-settings__title.rc_title-bar__title h2 {
+	padding: 7px 10px !important;
+}
+
+.rc_schedule__order__date {
+	padding-top: 15px;
+}
+
+.rc_schedule__order__address.rc_delivery_address {
+	background: #e0e4e3;
+	padding: 10px;
+	font-weight: 600;
+	color: #56585f;
+}
+
+.rc_table__container th.td-product {
+	text-transform: uppercase;
+}
+
+tr.rc_schedule__order__item.rc_schedule__order__item__1.product- {
+	font-size: 0.9em;
+}
+
+.recharge .table th {
+	text-align: left;
+	padding: 11px 11px;
+	font-size: 13px;
+	background: #c94746;
+	color: #fff;
+	font-weight: 600;
+}
+
+.rc_schedule__orders tbody {
+	border: 1px solid #ddd;
+}
+
+.rc_header-settings__title.rc_title-bar__title h2 {
+	background: #e0e4e3;
+}
+
+#ReCharge-Nav li.rc_menu__item.rc_active.active, #ReCharge-Nav li.rc_menu__item.rc_active.active a {
+	background: #c94746;
+	color: #fff !important;
+}
+
+a.toggle-delivery {
+	color: #c94746;
+	text-decoration: none;
+}
+
+span.rc_schedule__order__item__edit a {
+	color: #c94746;
+	text-decoration: none;
+}
+
+h4.purchase-address {
+	font-size: 1.3em;
+}
+
+.rc_subscriptions__subscription--info {
+	padding-top: 19px;
+}
+
+.recharge .table td p {
+	font-size: .9em;
+}
+
+a.store_email_cancel_text {
+	color: #c94746;
+	text-decoration: none;
+}
+
+a.edit-item-link {
+	color: #c94746;
+	text-decoration: none;
+}
+
+td.rc_history__item__order a {
+	color: #c94746;
+	text-decoration: none;
+}
+
+.recharge .rc_table td:last-child {
+	width: 100% !important;
+	white-space: initial !important;
+}
+
+select#ReCharge-Mobile-Nav {
+	padding: 15px 10px;
+	width: 95% !important;
+	margin: 0 auto 10px;
+	font-size: 18px;
+}
+
+@media screen and (max-width:480px) {
+	#ReCharge .table-responsive {
+		margin-top: 11px;
+		padding: 0px !important;
+		overflow: scroll;
+		width: 100%;
+	}
+}
